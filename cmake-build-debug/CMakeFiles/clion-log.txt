@@ -1,0 +1,2 @@
+CMakeLists.txt not found in D:\work1\github\cpj
+Toolchains are not configured Configure
