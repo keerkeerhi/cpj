@@ -3,4 +3,4 @@ project(cp_demo)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cp_demo main.cpp)
+add_executable(cp_demo main.cpp TestConstructor.cpp TestConstructor.h)

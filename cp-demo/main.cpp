@@ -1,7 +1,9 @@
+#include "TestConstructor.h"
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, Worldaaaaa!" << std::endl;
-    //TODO: Add a waiting code.
-    return 0;
+int main(int argc, char *argv[])
+{
+    TestConstructor *t = new TestConstructor();
+    std::cout << "Hello number ,";
+    delete t;
 }
